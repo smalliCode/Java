@@ -31,5 +31,15 @@ public class Java{
 
         System.out.println(numeroReal);
 
+        /*
+         * double => tipo de dado primitivo que salva numeros reais em uma faixa de valores.
+         * O tipo double salva o dobro de dados do que o float e podemos ou nao acompanhar o valor final
+         * com 'd' minusculo.
+         */
+        double numeroDouble;
+        numeroDouble = 7;
+
+        System.out.println(numeroDouble);
+
     }
 }
