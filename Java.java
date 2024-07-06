@@ -39,7 +39,101 @@ public class Java{
         double numeroDouble;
         numeroDouble = 7;
 
+        
+
         System.out.println(numeroDouble);
 
+            /*testes Aritméticos (+, -, *, /, %)
+                Relacionais (==, !=, >, <, >=, <=)
+                Lógicos (&&, ||, !)
+                Incremento e Decremento (++, --)
+                Atribuição (=, +=, -=, *=, /=, %=)*/
+
+        int x = 2 + 4;
+        int y = 4;
+        System.out.println(x);
+        x = x - 1;
+        System.out.println(x);
+        x = 4*(8/2);
+        System.out.println(x);
+        x = 4 + 2;
+        System.out.println(x);
+        x --;
+        System.out.println(x);
+        x ++;
+        System.out.println(x);
+        x = x + 4;
+        System.out.println(x);
+        x %= 2 *(2);
+        System.out.println(x);
+        if(x == y){
+            y-= 2;
+            System.out.println(y);
+            x += 2;
+            System.out.println(x);
+        }else{
+            y *= x;
+        }
+        boolean f = true;
+
+        if(!f || x >= 3){
+            x++;
+
+        }else{
+            if(y != x && x <= 2){
+                x = 2 + (6 * 2);
+            }
+            f = false;
+        }
+        System.out.println(x);
+        System.out.println(f);
+        System.out.println(y);
+
+        int n1 = 12;
+        if(n1 > 0){
+            System.out.println("Positivo");
+        }else if(n1 == 0){
+            System.out.println("Zero");
+        }else{
+            System.out.println("Negativo");
+        }
+
+        switch (2) {
+            case 1:
+                System.out.println("Domingo");
+                break;
+            case 2:
+                System.out.println("Segunda");
+                break;
+            case 3:
+                System.out.println("Terça");
+                break;
+            case 4:
+                System.out.println("Quarta");
+                break;
+            case 5:
+                System.out.println("Quinta");
+                break;
+            case 6:
+                System.out.println("Sexta");
+                break;
+            case 7:
+                System.out.println("Sábado");
+                break;
+
+            default:
+            System.out.println("Erro");
+                break;
+        }
+
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
+        }
+        int i = 0;
+        while (i < 10) {
+            System.out.println(1 + i);
+            i++;
+            
+        }
     }
 }
